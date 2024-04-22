@@ -1,0 +1,183 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Technique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav id="navbar">
+    <header>Documentation Technique</header>
+    <a class="nav-link" href="#introduction">Introduction</a>
+    <a class="nav-link" href="#installation">Installation</a>
+    <a class="nav-link" href="#usage">Usage</a>
+    <a class="nav-link" href="#examples">Examples</a>
+    <a class="nav-link" href="#references">References</a>
+</nav>
+
+<main id="main-doc">
+    <section id="introduction" class="main-section">
+        <header>Introduction</header>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod augue vitae nibh pharetra, eu posuere mauris eleifend.</p>
+        <p>Sed malesuada nulla et nibh mattis, at molestie purus luctus. Suspendisse id lectus vitae metus vulputate tempor.</p>
+        <p>Nunc sit amet erat eu risus luctus euismod. Vivamus sem arcu, ultricies nec luctus non, consequat eu sem.</p>
+        <code>npm install package-name</code>
+        <code>python script.py</code>
+        <code>git clone repository-url</code>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </section>
+    
+    <section id="installation" class="main-section">
+        <header>Installation</header>
+        <p>Integer eu leo nec tortor pretium convallis. Mauris id eros malesuada, sodales lectus ac, suscipit orci.</p>
+        <p>Proin at felis nec turpis feugiat euismod. Vestibulum sit amet magna a velit fermentum posuere.</p>
+        <p>Donec rhoncus ligula id magna malesuada, et tempor turpis consectetur. Ut in tellus non libero viverra suscipit.</p>
+        <code>npm install package-name</code>
+        <code>python script.py</code>
+        <code>git clone repository-url</code>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </section>
+    
+    <section id="usage" class="main-section">
+        <header>Usage</header>
+        <p>Curabitur euismod metus vel ipsum feugiat, at aliquam purus sagittis. Phasellus malesuada efficitur est, vitae pellentesque velit ultrices sit amet.</p>
+        <p>Praesent at velit lacinia, pharetra dolor id, vehicula mi. Fusce efficitur lacinia ex, sit amet maximus purus dignissim nec.</p>
+        <p>Vestibulum nec mauris ac nulla aliquet sodales vel vel justo. In finibus ultricies nunc, et malesuada libero ultrices at.</p>
+        <code>npm install package-name</code>
+        <code>python script.py</code>
+        <code>git clone repository-url</code>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </section>
+    
+    <section id="examples" class="main-section">
+        <header>Examples</header>
+        <p>Proin maximus purus quis mi feugiat, et tempor metus varius. Nam quis velit sed elit tempor mollis.</p>
+        <p>Sed nec nunc eu mi rutrum tristique. Fusce auctor felis non est consectetur, ac rhoncus arcu mollis.</p>
+        <p>Maecenas tempus sapien vel mi lobortis ullamcorper. Ut a nisl condimentum, consectetur metus ac, sodales felis.</p>
+        <code>npm install package-name</code>
+        <code>python script.py</code>
+        <code>git clone repository-url</code>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </section>
+    
+    <section id="references" class="main-section">
+        <header>References</header>
+        <p>Ut sit amet eros a neque scelerisque scelerisque a eu erat. Integer nec turpis quis dui ultrices posuere.</p>
+        <p>Donec nec augue ac velit egestas feugiat. Vivamus pretium lacus eget arcu fermentum, ut rutrum magna lacinia.</p>
+        <p>In volutpat metus at ligula euismod, id congue eros volutpat. Duis eget sapien at justo condimentum consequat.</p>
+        <code>npm install package-name</code>
+        <code>python script.py</code>
+        <code>git clone repository-url</code>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+    </section>
+</main>
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+#navbar header {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+}
+
+.main-section {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+code {
+    display: block;
+    background-color: #f4f4f4;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .main-section {
+        margin-left: 0;
+    }
+}
+
+
+** end of undefined **
+

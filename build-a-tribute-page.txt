@@ -1,0 +1,77 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'Hommage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<main id="main">
+    <h1 id="title">Dr Norman Borlaug</h1>
+    
+    <div id="img-div">
+        <img id="image" src="https://www.gstatic.com/hostedimg/2ab35efb5e6ff258_landing" alt="Dr Norman Borlaug">
+        <figcaption id="img-caption">Dr Norman Borlaug</figcaption>
+    </div>
+    
+    <div id="tribute-info">
+        <p>Dr Norman Borlaug is a legend in agriculture. His work in high-yield wheat varieties saved millions of lives.</p>
+        <p>He was awarded the Nobel Peace Prize in 1970.</p>
+    </div>
+    
+    <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">Learn more about Dr Norman Borlaug</a>
+</main>
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+/* Styles for Tribute Page */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#img-div {
+    margin-top: 20px;
+}
+
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin-top: 10px;
+}
+
+#tribute-link {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+
+** end of undefined **
+
